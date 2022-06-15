@@ -1,0 +1,45 @@
+/* for animation */
+@keyframes wipeUp {
+  0% {
+    transform: scaleX(0);
+  }
+  50% {
+    transform: scaleX(1);
+  }
+}
+
+@keyframes detailAndSectionCart {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes cartItemShowUp {
+  from {
+    transform: scaleY(0);
+  }
+  to {
+    transform: scaleY(1);
+  }
+}
+
+@keyframes h1 {
+  from {
+    left: 0;
+  }
+  to {
+    left: 12%;
+  }
+}
+
+@keyframes h2 {
+  from {
+    right: 0;
+  }
+  to {
+    right: 12%;
+  }
+}
