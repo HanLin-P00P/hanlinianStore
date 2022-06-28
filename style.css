@@ -144,9 +144,11 @@ body {
   display: none;
 }
 
-.smallMenuDiv {
+.smallMenuDiv,
+ #smallMenuList {
   display: none;
 }
+
 
 #logoArea {
   font-family: "Kanit", sans-serif;
