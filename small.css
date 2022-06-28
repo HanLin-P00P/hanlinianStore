@@ -55,6 +55,7 @@
     z-index: 1;
   }
   #smallMenuList {
+    display:block;
     list-style: none;
     padding: 5px;
   }
